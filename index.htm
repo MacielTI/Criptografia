@@ -1,6 +1,26 @@
 <html>
   <head>
     <title></title>
+    <script type="text/javascript">
+      var char1
+      var answer = confirm("Para Encriptar clique em 'OK'. Para Decifrar clique em 'CANCELAR'");
+      if (answer === true)
+      {
+        var text = prompt("Digite o que deseja Encriptar. No momento temos um limite de um caracter por vez. Num aproxima versão adicionaremos maiores possiblidades.");
+        if (text.length === 1)
+        {
+          if (text ==="a")
+          {
+            char1 = "10210548"
+          }
+        }
+        else
+        {
+          confirm("Você excedeu o limite de 1 caractere ou não digitou nada. Recarregue a pagina e tente novamente.")
+        }
+      }
+      document.write(char1)
+    </script>
   </head>
   <body>
   </body>
