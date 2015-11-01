@@ -1,25 +1,87 @@
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title></title>
     <script type="text/javascript">
       var char1
       var answer = confirm("Para Encriptar clique em 'OK'. Para Decifrar clique em 'CANCELAR'");
       if (answer === true)
       {
-        var text = prompt("Digite o que deseja Encriptar. No momento temos um limite de um caracter por vez. Num aproxima versão adicionaremos maiores possiblidades.");
-        if (text.length === 1)
+        var text = prompt("Digite o que deseja Encriptar. No momento temos um limite de um caracter por vez. Na aproximas versões adicionaremos maiores possiblidades.");
+        if (text.length >= 1)
         {
-          if (text ==="a")
+          //Referentes ao char1 alfabeto maiusculas e minusculas.
+          if(text.substring(0,1) ==="a")
           {
             char1 = "10210548"
           }
+          if(text.substring(0,1) ==="A")
+          {
+            char1 = "87875487"
+          }
+          if(text.substring(0,1) === "b")
+          {
+            char1 = "78954210"
+          }
+          if(text.substring(0,1) ==="B")
+          {
+            char1 = "63276568"
+          }
+          if(text.substring(0,1)==="c")
+          {
+            char1 = "45651215"
+          }
+          if(text.substring(0,1)==="C")
+          {
+            char1 = "65465476"
+          }
+          if(text.substring(0,1)==="d")
+          {
+            char1="53491965"
+          }
+          if(text.substring(0,1)==="D")
+          {
+            char1 = "78471232"
+          }
+          if(text.substring(0,1)==="e")
+          {
+            char1 = "98794565"
+          }
+          if(text.substring(0,1)==="E")
+          {
+            char1 = "87986456"
+          }
+          if(text.substring(0,1)==="f")
+          {
+            char1 = "98415362"
+          }
+          if(text.substring(0,1)==="F")
+          {
+            char1 = "87984515"
+          }
+          if(text.substring(0,1)==="g")
+          {
+            char1 = "32164699"
+          }
+          if(text.substring(0,1)==="G")
+          {
+            char1 = "45451316"
+          }
+          
         }
         else
         {
           confirm("Você excedeu o limite de 1 caractere ou não digitou nada. Recarregue a pagina e tente novamente.")
         }
       }
-      document.write(char1)
+      if(char1.length > 0)
+      {
+        document.write("Este é o seu texto codificado: " +char1)
+      }
+      else
+      {
+        document.write("Nada foi digitado")
+      }
     </script>
   </head>
   <body>
