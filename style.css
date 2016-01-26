@@ -1,0 +1,40 @@
+
+.encriptar {
+    background-color: #3498db;
+    height: 10%;
+    left: 33%;
+    position: absolute;
+    top: 38%;
+    width: 10%;
+}
+.encriptartext {
+    font-family: sans-serif;
+    font-size: 164%;
+    left: 10%;
+    position: absolute;
+    top: -16%;
+}
+.desencriptar {
+    background-color: #1abc9c;
+    height: 10%;
+    left: 52%;
+    position: absolute;
+    top: 38%;
+    width: 11%;
+}
+.desencriptartext {
+    font-family: sans-serif;
+    font-size: 157%;
+    left: 2%;
+    position: absolute;
+    top: -16%;
+}
+.titulo {
+    font-family: sans-serif;
+    left: 35%;
+    position: absolute;
+    top: 10%;
+}
+body{
+  background-color: #bdc3c7;
+}
