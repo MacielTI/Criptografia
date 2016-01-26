@@ -35,6 +35,26 @@
     position: absolute;
     top: 10%;
 }
-body{
-  background-color: #bdc3c7;
+body {
+    background-color: #bdc3c7;
+}
+.textencripted {
+    font-family: sans-serif;
+    left: 10%;
+    position: absolute;
+    top: 10%;
+}
+.textencriptedfund {
+    background-color: #27ae60;
+    height: 74%;
+    left: 10%;
+    position: absolute;
+    top: 23%;
+    width: 80%;
+}
+.titulo_I {
+    font-family: sans-serif;
+    left: 26%;
+    position: absolute;
+    top: 10%;
 }

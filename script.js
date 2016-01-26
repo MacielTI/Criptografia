@@ -230,6 +230,9 @@ $(document).ready(function(){
     end = end+1;
     insertcode= insertcode+1;
     }
-    alert(char[0]+""+char[1]+""+char[2]+""+char[3]+""+char[4]+""+char[5]+""+char[6]+""+char[7]+""+char[8]+""+char[9]+""+char[10]+""+char[11]+""+char[12]+""+char[13]+""+char[14]+""+char[15]+""+char[16]+""+char[17]+""+char[18]+""+char[19]+""+char[20]+""+char[21]+""+char[22]+""+char[23]);
+    window.document.write(
+      "<link rel=stylesheet href=style.css></link>"+
+      "<div class=textencriptedfund>"+"<p class=textencripted>"+char[0]+""+char[1]+""+char[2]+""+char[3]+""+char[4]+""+char[5]+""+char[6]+""+char[7]+""+char[8]+""+char[9]+""+char[10]+""+char[11]+"</br>"+char[12]+""+char[13]+""+char[14]+""+char[15]+""+char[16]+""+char[17]+""+char[18]+""+char[19]+""+char[20]+""+char[21]+""+char[22]+""+char[23]+"</p>"+"</div>"+"<body bgcolor=#bdc3c7></body>"+
+      "<center>"+"<h1 class=titulo_I>Texto Ecriptado Por: Criptografia B.N.M 2.0</h1>"+"</center>");
   });
 });
